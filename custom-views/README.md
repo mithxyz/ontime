@@ -9,16 +9,13 @@ back to `GET /api/poll` on boot.
 
 ## Views
 
-| slug       | target                                  | notes                                                         |
-| ---------- | --------------------------------------- | ------------------------------------------------------------- |
-| `pi-timer` | Raspberry Pi Zero @ 1424 × 280 ultrawide | Strip layout — clock ∙ big timer ∙ now/next ∙ progress bar.   |
+| slug       | target                                  | notes                                                  |
+| ---------- | --------------------------------------- | ------------------------------------------------------ |
+| `pi-timer` | Raspberry Pi Zero @ 1424 × 280 ultrawide | Full-strip big timer + progress bar. No chrome.        |
 
-### URL params (shared)
+### URL params
 
-- `?name=<str>` — optional venue label under the clock
-- `?clock=false` — hide the clock panel
-- `?progress=false` — hide the progress bar
-- `?next=false` — hide the Next card
+- `?progress=false` — hide the progress bar (timer fills the full strip)
 
 ## Deploying to an Ontime server
 
